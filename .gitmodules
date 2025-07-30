@@ -1,3 +1,6 @@
 [submodule "sso-toolbox.git"]
 	path = sso-toolbox
 	url = https://gitlab.lrz.de/lpl-tum/sso-toolbox-lpl/sso-toolbox.git
+[submodule "sso-toolbox"]
+	path = sso-toolbox
+	url = git@github.com:Alirockman1/sso-toolbox.git
