@@ -24,6 +24,8 @@ This MATLAB-based suite is designed for visualizing the performance and converge
 * MATLAB R2018b or newer.
 * Image Processing Toolbox (Required for image manipulation).
 
+---
+
 ## DIRECTORY STRUCTURE
 ```plaintext
 /src        - Core algorithm logic.
