@@ -1,13 +1,13 @@
-============================================================
-      INTERACTIVE OPTIMIZATION VISUALIZATION TOOLBOX
-============================================================
+# INTERACTIVE OPTIMIZATION VISUALIZATION TOOLBOX
 
-1. OVERVIEW
------------
+## OVERVIEW
+
 This MATLAB-based suite is designed for visualizing the performance and convergence of various optimization algorithms. It allows users to compare Gradient-Based and Population-Based methods through interactive plots, convergence figures, and frame-by-frame GIF exports with slider controls.
 
-2. KEY FEATURES
----------------
+---
+
+## KEY FEATURES
+
 * Algorithm Library: Includes Gradient Descent variants and 
   Population-based algorithms (e.g., PSO, GA).
 * Interactive UI: Built-in sliders to "scrub" through iterations 
@@ -17,13 +17,15 @@ This MATLAB-based suite is designed for visualizing the performance and converge
 * Visualization: 2D/3D contour and surface plots showing the 
   path of the optimizer.
 
-3. REQUIREMENTS
----------------
+---
+
+## REQUIREMENTS
+
 * MATLAB R2018b or newer.
 * Image Processing Toolbox (Required for image manipulation).
 
-4. DIRECTORY STRUCTURE
-----------------------
+## DIRECTORY STRUCTURE
+```plaintext
 /src        - Core algorithm logic.
   /OptimizationAlgorithmFunctions
   /CommonCovergenceFunctions
@@ -31,9 +33,12 @@ This MATLAB-based suite is designed for visualizing the performance and converge
   /CommonVisulaizationFunctions
 /sso-toolbox    - Utility functions for plotting and UI.
 setup_optimization_visualization.m     - Environment configuration and path setup script.
+```
 
-5. GETTING STARTED
-------------------
+---
+
+## GETTING STARTED
+
 1. Open MATLAB.
 2. Run 'setup_optimization_visualization_toolbox.m' located in the root folder. This script will:
    - Verify your MATLAB version.
@@ -42,9 +47,12 @@ setup_optimization_visualization.m     - Environment configuration and path setu
    - Change the current directory to the project root.
 3. Open the 'src\OptimizationAlgorithmFunctions' folder and run a script (e.g., 'optimization_simplex.m').
 
-6. ALGORITHMS INCLUDED
-----------------------
-### GRADIENT-BASED:
+---
+
+## ALGORITHMS INCLUDED
+
+GRADIENT-BASED:
+---------------
 - Conjugate Gradient
 ![Conjugate Gradient](Images/conjugategradient.JPG)
 
@@ -66,21 +74,23 @@ setup_optimization_visualization.m     - Environment configuration and path setu
 
 - Sequential Quadratic Programming
 
-### POPULATION-BASED:
+POPULATION-BASED:
+-----------------
 - Particle Swarm Optimization (PSO)
 
 - Genetic Algorithms (GA)
 
 - Differential Evolution
 
-7. Authors
----------------
+---
+
+## Authors
 - **Ali Abbas Kapadia (Main Author)**
 - **Eduardo Rodrigues Della Noce (Contributor)**
 
-8. CONTRIBUTING
----------------
+---
+
+## CONTRIBUTION
 If you wish to add a new algorithm, please ensure it outputs 
-an iteration history matrix compatible with the visualization 
-functions in the /Toolbox folder.
+an iteration history matrix compatible with the visualization functions in the /Toolbox folder.
 ============================================================
